@@ -38,13 +38,23 @@ a {
   align-items: center;
 }
 
+.logo-container {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
 .header .logo {
   color: #F9FAF8; /* for alt text*/
   font-size: 24px;
   width: 40px;
+  height: 40px;
 }
 
-.header .links a, .title p {
+.header .links a, .title p, .footer {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -184,7 +194,10 @@ a {
 
 
 .footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0px;
 }
 
 
