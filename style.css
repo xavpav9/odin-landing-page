@@ -1,7 +1,9 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-family: "Roboto", sans-serif;
+  margin: 0px;
 }
 
 ul {
@@ -70,17 +72,26 @@ a {
 }
 
 .title .sign-up {
-  background-color: #3882F6;
-  border-radius: 5px;
-  padding: 8px 24px;
   border: 0px;
   color: white;
+}
+
+.title .sign-up, .call-to-action .sign-up {
+  border-radius: 5px;
+  padding: 4px 24px;
+}
+
+.title .sign-up, .call-to-action > div, .call-to-action .sign-up {
+  background-color: #3882F6;
 }
 
 
 
 
-.information {}
+
+.information {
+  margin-bottom: 80px;
+}
 
 .information > h2 {
   font-size: 36px;
@@ -116,7 +127,7 @@ a {
 
 .quote {
   background-color: #E5E7EB;
-  padding: 80px 160px;
+  padding: 80px 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,14 +156,35 @@ a {
 
 
 
+.call-to-action {
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.call-to-action {}
+.call-to-action > div {
+  border-radius: 5px;
+  color: white;
+  padding: 32px 96px;
+  margin: 30px 0px;
+
+  display: flex;
+  align-items: center;
+  gap: 128px;
+}
+
+.call-to-action .sign-up {
+  color: white;
+  border: 2px white solid;
+}
 
 
 
 
 
 .footer {
+
 }
 
 
